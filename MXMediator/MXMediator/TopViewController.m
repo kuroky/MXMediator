@@ -1,36 +1,31 @@
 //
-//  ViewController.m
+//  TopViewController.m
 //  MXMediator
 //
-//  Created by kuroky on 2018/10/25.
+//  Created by kuroky on 2018/10/26.
 //  Copyright © 2018 Kuroky. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "TopViewController.h"
 
-@interface ViewController () <UITableViewDataSource, UITableViewDelegate>
+@interface TopViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (nonatomic, strong) NSArray *items;
-
 
 @end
 
-@implementation ViewController
+@implementation TopViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     self.view.backgroundColor = [UIColor whiteColor];
     
     self.tableView.rowHeight = 50;
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
-    
-    self.items = @[];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.items.count;
+    return 10;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -41,6 +36,5 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
 }
-
 
 @end

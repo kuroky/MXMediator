@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B0C65CE21831BA300A9982E /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0C65CD21831BA300A9982E /* TopViewController.m */; };
 		5BB3C0F12181630B00183888 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3C0F02181630B00183888 /* AppDelegate.m */; };
 		5BB3C0F42181630B00183888 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3C0F32181630B00183888 /* ViewController.m */; };
 		5BB3C0F72181630B00183888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3C0F52181630B00183888 /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B0C65CC21831BA300A9982E /* TopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
+		5B0C65CD21831BA300A9982E /* TopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
 		5BB3C0EC2181630B00183888 /* MXMediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXMediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB3C0EF2181630B00183888 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5BB3C0F02181630B00183888 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -71,6 +74,8 @@
 				5BB3C0F02181630B00183888 /* AppDelegate.m */,
 				5BB3C0F22181630B00183888 /* ViewController.h */,
 				5BB3C0F32181630B00183888 /* ViewController.m */,
+				5B0C65CC21831BA300A9982E /* TopViewController.h */,
+				5B0C65CD21831BA300A9982E /* TopViewController.m */,
 				5BB3C1052181662100183888 /* FirstViewController.h */,
 				5BB3C1062181662100183888 /* FirstViewController.m */,
 				5BB3C108218166D300183888 /* SecondViewController.h */,
@@ -159,6 +164,7 @@
 				5BB3C10A218166D300183888 /* SecondViewController.m in Sources */,
 				5BB3C0F42181630B00183888 /* ViewController.m in Sources */,
 				5BB3C10D218166DD00183888 /* ThirdViewController.m in Sources */,
+				5B0C65CE21831BA300A9982E /* TopViewController.m in Sources */,
 				5BB3C0FF2181630C00183888 /* main.m in Sources */,
 				5BB3C0F12181630B00183888 /* AppDelegate.m in Sources */,
 				5BB3C1072181662100183888 /* FirstViewController.m in Sources */,
